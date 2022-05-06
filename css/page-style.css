@@ -25,6 +25,19 @@ b{
   z-index: 2;
 }
 
+.hero-image-figma {
+  background-image: linear-gradient(rgba(43, 56, 72, 0.7), rgba(71, 87, 107, 0.2) 50%), url("../images/placeholder.png");
+  background-color: #EDF1F4;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+
 .hero-text {
   font-family: 'Inter';
   text-align: center;
@@ -70,8 +83,30 @@ h3{
   position: relative;
 }
 
+.content .hero-image-figma {
+  background-image: linear-gradient(rgba(43, 56, 72, 0.3), rgba(71, 87, 107, 0.2) 50%), url("../images/placeholder.png");
+  height: 40vh;
+  width: 100%;
+  top: 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .content .hero-image-1 {
   background-image: url("../images/amazon/wireframes.png");
+  height: 40vh;
+  width: 100%;
+  top: 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content .hero-image-figma-1 {
+  background-image: url("../images/placeholder.png");
   height: 40vh;
   width: 100%;
   top: 0%;
