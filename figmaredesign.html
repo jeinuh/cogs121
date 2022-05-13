@@ -65,10 +65,13 @@
       <h3>Overview</h3>
           <div class="row">
             <div class="col-12 pb-5">
-Smart Feedback is a a redesign of Figma's comment system that provides context-relevant system
+<p>Smart Feedback is a a redesign of Figma's comment system that provides context-relevant system
  reminders and a visual suggestion functionality, enabling Figma users to provide
-  more constructive, actionable feedback.
+  more constructive, actionable feedback.</p>
 
+  <p>
+    <small>This was done as a 5-week team project under the instruction of Professor Haijun Xia for Design 118 at UC San Diego.</small>
+  </p>
         </div>
             <div class="col-4">
               <h4> Team </h4><br>
@@ -143,20 +146,24 @@ Smart Feedback is a a redesign of Figma's comment system that provides context-r
                     <div class="col"><img src="images/figma/grammarly.gif" alt="Grammarly functionality" class="img-fluid"></div>
                     <div class="col"><img src="images/figma/googledocs.gif" alt="Google Docs functionality" class="img-fluid"></div>
                     <div class="col"><center><small><b>Grammarly</b> is a writing assistant which provides AI-tailored suggestions to improve writing.
-</small></center></div>
+                    </small></center></div>
                     <div class="col"><center><small><b>Google Docs</b> uses AI to provide possible auto-fill wording ideas.
-</small></center></div>
+                    </small></center></div>
                   </div>
             </div>
 
               <p>
               <b>We adapted these features to our design:</b>
-              <ul>
-                <li><b>Verbal cues:</b> While writing feedback, system provides
-                   ideas for better (i.e. actionable) feedback</li>
-                <li><b>Visual suggestions:</b> System generates a selection of
-                  visually previewable suggestions based on written feedback</li>
-              </ul>
+              <div class="container">
+                  <div class="row row-cols-2">
+                    <div class="col"><b>Verbal cues:</b></div>
+                    <div class="col"><b>Visual suggestions:</b></div>
+                    <div class="col">While writing feedback, system provides
+                       ideas for better (i.e. actionable) feedback</div>
+                    <div class="col">System generates a selection of
+                      visually previewable suggestions based on written feedback</div>
+                  </div>
+            </div>
             </p>
         </section>
 
@@ -169,7 +176,7 @@ Smart Feedback is a a redesign of Figma's comment system that provides context-r
 
         <section class="container reveal" id="two" >
           <p>
-          <b>Before jumping into the interface design, we mapped out the general
+          <b>Before jumping into the interface design, we mapped out the high-level interactive
              flow of our system:</b>
           </p>
           <img src="images/figma/4.png" class="img-fluid" style="padding: 20px;" alt="User survey 2">
@@ -194,54 +201,71 @@ Smart Feedback is a a redesign of Figma's comment system that provides context-r
             </p>
         </section>
 
-
         <!--  Content -->
+          <div class="sticky-outer"><h4>03</h4><h5> Lofi Prototypes</h5></div>
 
         <section class="container reveal" id="two" >
-          <div class="sticky"><h4>03 </h4><h5>Lofi Prototypes</h5></div>
-          <h3>Section title</h3>
-          <img src="images/figma/2.png" class="img-fluid" alt="User survey 2">
-          <img src="images/figma/3.png" class="img-fluid" alt="User survey 2">
+          <h3>Mapping out the flows onto interface skeletons </h3>
+          <p>We applied our ideas to lo-fi prototypes to make sure our interactive
+            flow would make sense when mapped out on an actual interface:</p>
+          <img src="images/figma/2.png" class="img-fluid" alt="User survey 2"><br>
+          <center><small>Flow for text input</small></center>
+          <img src="images/figma/3.png" class="img-fluid" alt="User survey 2"><br>
+          <center><small>Flow for voiced input</small></center>
           <p>
-            Cras pulvinar mattis nunc sed blandit libero volutpat sed cras.
-            Pulvinar neque laoreet suspendisse interdum consectetur.
+          At this stage, we had to determine what the summary card would specifically contain.
+          We determined the <b>summary card would distill input into four areas we felt would
+           produce specific, relevant, and actionable feedback in Figma:</b><br/>
+              <ul>
+              <li><b>Critical level</b>: What priority is this feedback? <i>(e.g. Low)</i></li>
+              <li><b>Area</b>: Where? <i>(e.g. Background)</i></li>
+              <li><b>Feedback</b>: What? (e.g. Too dark)</li>
+              <li><b>Action</b>: Do what next? (e.g. Lighten background)</li>
+            </ul>
           </p>
         </section>
 
+
     <!-- Content -->
+    <div class="sticky-outer"><h4>04</h4><h5> Redefining</h5></div>
     <section class="container reveal" id="three" >
-      <div class="sticky"><h4>03</h4><h5> Redefining</h5></div>
-      <h3>Section title</h3>
+      <h3>Evaluating User Needs of Collaborative Figma Users</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-         tempor incididunt ut labore et dolore magna aliqua.
-         Posuere urna nec tincidunt praesent semper feugiat nibh sed.
-        Purus sit amet luctus venenatis lectus magna fringilla urna.
+        We had to consider the real-world constraints of working in a large collaborative
+        design project: multiple people working on a single project, providing and
+        receiving feedback concurrently with disparate milestones and corresponding deadlines.
+      </p><p>To make the summary card more specific and thus more effective, we added <b>deadline dates</b> and
+        <b>assignee</b> parameters.
       </p>
     </section>
 
         <!-- Content -->
+        <div class="sticky-outer"> <h4>05</h4><h5> Final design</h5></div>
         <section class="container reveal" id="three" >
-          <div class="sticky"> <h4>04</h4><h5> Final design</h5></div>
-          <h3>Section title</h3>
-          <p>We set into action the design changes mentioned above unto our final prototypes:
+          <h3>Adding color and interactions</h3>
+          <p>We fleshed out our prototypes, taking cues from the visual style of
+            Figma's comment system:
           </p>
           <br>
-          <h6 data-aos="fade-left" data-aos-duration="1000">Screen</h6>
-          <br><br>
+          <h6 data-aos="fade-left" data-aos-duration="1000">Voiced input</h6>
           <img src="images/figma/5_0.png" class="img-fluid" alt="Homepage">
-          <br><br>
+          <br><center><small>As the user speaks, the system provides real-time cues for what areas to include (action, area, priority, deadline, assignee)</small></center><br>
+          <br>
+          <h6 data-aos="fade-left" data-aos-duration="1000">Text input Autocomplete suggestions</h6>
+          <br>
           <img src="images/figma/5.png" class="img-fluid" alt="Homepage">
-        </p>
-          <br><br>
-          <h6 data-aos="fade-right" data-aos-duration="1000">Screen</h6>
-          <br><br>
+          <br><center><small>As the user types, the system provides contextual auto-complete suggestions which the user can implement or ignore (make text lighter, make background lighter)</small></center><br>
+          <br>
+          <h6 data-aos="fade-right" data-aos-duration="1000">Assigning feedback to a user</h6>
+          <br>
           <img src="images/figma/5_2.png" class="img-fluid" alt="Search filter">
-          <br><br>
-          <h6 data-aos="fade-left" data-aos-duration="1000">Screen</h6>
-          <br><br>
+          <br><center><small>System provides dropdown list of possible users to assign to if identifiable name is parsed</small></center><br>
+          <br>
+          <h6 data-aos="fade-left" data-aos-duration="1000">Summary card + Suggestions overlay</h6>
+          <br>
           <img src="images/figma/6.png" class="img-fluid" alt="Checkout/shipping">
-        <br>
+          <br><center><small>Once user clicks post, system generates a feedback summary card with most salient feedback areas. A "smart suggestions" panel is generated from "action" area of summary.</small></center><br>
+          <br>
         </section>
 
         <!-- Hero image -->
@@ -252,20 +276,32 @@ Smart Feedback is a a redesign of Figma's comment system that provides context-r
         </div>
 
         <section class="container reveal" id="three" >
-          <div class="sticky"><h4>05</h4> <h5>Takeaways</h5></div>
-          <h3>Section title</h3>
+          <div class="sticky"><h4>05</h4> <h5>Summary</h5></div>
+          <h3>Effective Feedback is Effective Design</h3>
           <p>
-          Ipsum a arcu cursus vitae congue mauris. Nunc vel risus commodo viverra
-          maecenas accumsan lacus. Urna cursus eget nunc scelerisque viverra mauris.
-          Elementum curabitur vitae nunc sed velit dignissim. Pharetra sit amet
-           aliquam id diam maecenas ultricies mi eget. At varius vel pharetra
-           vel turpis nunc. <b>Pharetra magna ac placerat vestibulum lectus mauris
-           ultrices.</b>
+          Smart Feedback streamlines feedback/iteration process by leveraging AI to provide individualized verbal and visual suggestions
+          suggestions support more clear, actionable feedback and may stimulate the generation of additional design ideas.
+          <b>When the system provides more support to the feedback author to provide
+           better feedback, it benefits all parties, bolstering productivity and
+            innovation.</b>
 
           </p>
         </section>
 
-
+        <section class="container reveal" id="three" >
+          <div class="sticky"><h4>06</h4> <h5>Takeaways</h5></div>
+          <h3>Real-World Insights, Acknowledgements</h3>
+          <p>
+          While user research + testing was outside the scope of this project, it would greatly benefit
+          from getting real-world insight from a variety of Figma use cases to determine real user needs.
+          <i>What do users determine as bad vs good feedback? Are the system suggestions actually helpful or distracting?</i>
+          <br/><br/>
+          Overall, by doing this project I didn't just garner new design and prototyping experience, but
+          I also learned a great deal about how to communicate and motivate design decisions to others
+          thanks to the presentation milestones. I'd like to thank Professor Haijun Xia for his
+          constructive feedback and insightful curriculum as well as my teammates Yada, Han, and Angela for their great work.
+          </p>
+        </section>
             <!-- Img
             <section id="img-one">
             <section class="container reveal" id="img-one-content">
