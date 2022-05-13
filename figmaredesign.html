@@ -65,10 +65,11 @@
       <h3>Overview</h3>
           <div class="row">
             <div class="col-12 pb-5">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-aliquip ex ea commodo consequat.           </div>
+Smart Feedback is a a redesign of Figma's comment system that provides context-relevant system
+ reminders and a visual suggestion functionality, enabling Figma users to provide
+  more constructive, actionable feedback.
+
+        </div>
             <div class="col-4">
               <h4> Team </h4><br>
               Yada Chuengsatiansup<br>
@@ -77,7 +78,7 @@ aliquip ex ea commodo consequat.           </div>
           </div>
           <div class="col-4">
             <h4>My Roles</h4><br>
-              User Research <br>
+              Strategy <br>
               UI Design<br>
               Prototyping
           </div>
@@ -93,19 +94,32 @@ aliquip ex ea commodo consequat.           </div>
 
     <section class="container reveal" id="two" >
       <div class="sticky"><h4>01</h4><h5> Context</h5></div>
-      <h3>Section title</h3>
+      <h3>Figma's Comment System is not Conducive to Productive Visual Design</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.<br><br>
+        In professional design settings, style guides provide a concrete framework
+        for visual design language. However with collaborative situations where
+        design style is variable such as school projects or client branding,
+        visual details are constantly in flux and negotiated via feedback.
 
-          Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. <b>Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.</b>
+<br><br>
+
+          Feedback and clear communication is pivotal for collaborative work.
+          <b>However Figma’s comment system is generic, overly verbal, and does not
+          reflect the visual nature of the work.</b> Consequently, left to their
+          own devices, users can provide unclear or ambiguous verbal feedback which bogs
+          down the design process if misinterpreted.
+
       </p>
     </section>
+
+    <!-- Callout -->
+        <section class="container reveal" id="callout">
+            <h5>Problem statement</h5>
+            <h3>
+              To streamline collaborative iteration, Figma users need a design-relevant feedback
+                system which provides support for providing actionable and
+                precise feedback.
+            </section>
 
         <!--  Content -->
         <div class="testing">
@@ -113,88 +127,85 @@ aliquip ex ea commodo consequat.           </div>
 
         <section class="container reveal" id="two" >
         <!--  <div class="sticky"><h4>02 </h4><h5>User Research</h5></div>-->
-          <h3>Section title</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. </p>
-        </section>
-
-        <!-- Callout -->
-              <section class="container reveal" style="margin-top: -1px; margin-bottom:-1px;" id="callout">
-                      <h3><img src="images/quote.svg" style="padding-bottom: 4px;padding-right: 8px; display:inline;">
-                      This is a callout. </h3>
-              </section>
-
-        <!--  Content -->
-        <section class="container reveal" id="two" >
-          <img src="images/figma/1.png" class="img-fluid" alt="User survey 1">
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. <b>Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.</b>
-            Which leads us to our defining problem statement:
-            </p>
-        </section>
-      </div>
-  <!-- Callout -->
-      <section class="container reveal" id="callout">
-          <h5>Problem statement</h5>
-          <h3>
-            Problem statement goes here.
-          </section>
-
-
-          <!--  Content -->
-
-          <section class="container reveal" id="two" >
-            <div class="sticky"><h4>03 </h4><h5>Initial design</h5></div>
-            <h3>Section title</h3>
-            <img src="images/figma/2.png" class="img-fluid" alt="User survey 2">
-            <img src="images/figma/3.png" class="img-fluid" alt="User survey 2">
+          <h3>Competitor inspiration: Using AI to Reduce Cognitive Load and Spark Ideas</h3>
+          <p>During competitor research, we examined popular tools that each had a feedback functionality: Grammarly and Google Docs.
+            In both applications, we observed that <b>AI was used to provide customized suggestions.</b>
+            We were inspired by how it could reduce cognitive load by
+            providing users individualized suggestions. Rather than a blank slate,
+            users receive additional support from system cues which can also incidentally
+            spark new ideas.</p>
             <p>
-            Cras pulvinar mattis nunc sed blandit libero volutpat sed cras.
-            Pulvinar neque laoreet suspendisse interdum consectetur.
-            <ul>
-              <li><b>Point</b></li>
-              <li><b>Point</b></li>
-              <li><b>Point</b></li>
-              <li><b>Point</b></li>
-            </ul>
+            We also appreciated how Google Docs' <b>suggestion functionality where
+            feedback authors could make edits to the work, enabling recipients to get a concrete
+            visualization of changes.</b> </p>
+              <div class="container">
+                  <div class="row row-cols-2">
+                    <div class="col"><img src="images/figma/grammarly.gif" alt="Grammarly functionality" class="img-fluid"></div>
+                    <div class="col"><img src="images/figma/googledocs.gif" alt="Google Docs functionality" class="img-fluid"></div>
+                    <div class="col"><center><small><b>Grammarly</b> is a writing assistant which provides AI-tailored suggestions to improve writing.
+</small></center></div>
+                    <div class="col"><center><small><b>Google Docs</b> uses AI to provide possible auto-fill wording ideas.
+</small></center></div>
+                  </div>
+            </div>
 
-          </b>
-
+              <p>
+              <b>We adapted these features to our design:</b>
+              <ul>
+                <li><b>Verbal cues:</b> While writing feedback, system provides
+                   ideas for better (i.e. actionable) feedback</li>
+                <li><b>Visual suggestions:</b> System generates a selection of
+                  visually previewable suggestions based on written feedback</li>
+              </ul>
             </p>
-          </section>
+        </section>
 
 <!-- Hero image -->
         <div class="hero-image-figma-1 reveal">
             <div class="hero-text">
-            <h1 style="font-size:50px">Design Process + Iteration</h1>
+            <h1 style="font-size:50px">Design Process</h1>
             </div>
         </div>
 
         <section class="container reveal" id="two" >
+          <p>
+          <b>Before jumping into the interface design, we mapped out the general
+             flow of our system:</b>
+          </p>
           <img src="images/figma/4.png" class="img-fluid" style="padding: 20px;" alt="User survey 2">
           <p>
-          Imperdiet nulla malesuada pellentesque elit eget.
-          Lectus sit amet est placerat in egestas erat.
-          Auctor neque vitae tempus quam pellentesque nec nam aliquam.
-          Vitae ultricies leo integer malesuada nunc vel risus.
-          Tempus imperdiet nulla malesuada pellentesque elit eget gravida.
-           Quam adipiscing vitae proin sagittis.
+          The system functionality is predicated on natural language processing to generate suggestions.</p><p>
+          <b>Users can provide feedback in written text or voiced input.</b> However, in either flow, the recipient receives the same format of feedback: a <b>summary card</b> which distills feedback from either input flow
+          and a <b>"Smart Suggestions" modal</b> which contains options for users to hover over to preview changes.
           </p>
+
         </section>
 
         <!-- Callout -->
         <section class="container reveal" id="callout">
-          <h5>Design Challenge</h5>
-          <h3>
-          Laoreet sit amet cursus sit amet dictum.
-           Lacinia quis vel eros donec.
-           Lacus viverra vitae congue eu consequat ac felis.
-           Neque convallis a cras semper auctor neque.
-        </h3>
+          <h5>Design rationale</h5>
+          <p style="color:black;">
+            <b>Text + Voiced input:</b> Additional flexibility to support diversity of workflows
+          </p>
+          <p style="color:black;">
+            <b>Summary card:</b> Standardized format streamlines feedback points for more clarity
+          </p><p style="color:black;">
+            <b>Smart Suggestions modal:</b> Visual previews can be directly implemented or ignored, streamlining iteration
+            </p>
+        </section>
+
+
+        <!--  Content -->
+
+        <section class="container reveal" id="two" >
+          <div class="sticky"><h4>03 </h4><h5>Lofi Prototypes</h5></div>
+          <h3>Section title</h3>
+          <img src="images/figma/2.png" class="img-fluid" alt="User survey 2">
+          <img src="images/figma/3.png" class="img-fluid" alt="User survey 2">
+          <p>
+            Cras pulvinar mattis nunc sed blandit libero volutpat sed cras.
+            Pulvinar neque laoreet suspendisse interdum consectetur.
+          </p>
         </section>
 
     <!-- Content -->
