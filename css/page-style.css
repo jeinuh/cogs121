@@ -26,7 +26,7 @@ b{
 }
 
 .hero-image-figma {
-  background-image: linear-gradient(rgba(43, 56, 72, 0.7), rgba(71, 87, 107, 0.2) 50%), url("../images/placeholder.png");
+  background-image: linear-gradient(rgba(43, 56, 72, 0.7), rgba(71, 87, 107, 0.2) 50%), url("../images/figma/banner.png");
   background-color: #EDF1F4;
   height: 50vh;
   width: 100%;
@@ -47,7 +47,7 @@ b{
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  background: rgba(43, 56, 72, 0.24);
+  background: rgba(43, 56, 72, 0.8);
 }
 
 .hero-text h1{
@@ -84,7 +84,7 @@ h3{
 }
 
 .content .hero-image-figma {
-  background-image: linear-gradient(rgba(43, 56, 72, 0.3), rgba(71, 87, 107, 0.2) 50%), url("../images/placeholder.png");
+  background-image: linear-gradient(rgba(43, 56, 72, 0.3), rgba(71, 87, 107, 0.2) 50%), url("../images/figma/takeaways.png");
   height: 40vh;
   width: 100%;
   top: 0%;
@@ -106,7 +106,7 @@ h3{
 }
 
 .content .hero-image-figma-1 {
-  background-image: url("../images/placeholder.png");
+  background-image: url("../images/figma/dsgnbanner.png");
   height: 40vh;
   width: 100%;
   top: 0%;
