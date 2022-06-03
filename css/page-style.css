@@ -202,6 +202,7 @@ h3{
 }
 
 #callout a{
+  color: #4F6176;
   -moz-transition:color .2s ease-in;
 -o-transition:color .2s ease-in;
 -webkit-transition:color .2s ease-in;
