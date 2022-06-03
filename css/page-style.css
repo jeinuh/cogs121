@@ -38,6 +38,19 @@ b{
   z-index: 2;
 }
 
+.hero-image-matt {
+  background-image: linear-gradient(rgba(43, 56, 72, 0.7), rgba(71, 87, 107, 0.2) 50%), url("../images/matt/hero.png");
+  background-color: #EDF1F4;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+
 .hero-text {
   font-family: 'Inter';
   text-align: center;
@@ -186,6 +199,21 @@ h3{
 #callout h3{
   line-height: 1.5rem !important;
   color: #FFFFFF;
+}
+
+#callout a{
+  -moz-transition:color .2s ease-in;
+-o-transition:color .2s ease-in;
+-webkit-transition:color .2s ease-in;
+   text-decoration: none;
+}
+
+#callout a:hover{
+   color: salmon;
+}
+
+blockquote {
+  margin: 3em 30px;
 }
 
 #one, #two, #three, #callout{
